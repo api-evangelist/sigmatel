@@ -1,4 +1,16 @@
 aid: sigmatel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sigmatel.png
 name: SigmaTel
 description: SigmaTel is a company surfaced as a portfolio company of battery-ventures and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: >-
+    Probed sigmatel.com (dig+HTTP): domain is parked (A 103.224.182.246 Trellian/above.com;
+    MX park-mx.above.com). SigmaTel was a semiconductor audio-codec company acquired by
+    Freescale Semiconductor in 2008 and no longer exists as an independent entity. No API
+    surface, developer portal, or docs. VC-portfolio (battery-ventures) association is stale/name-collision.
+    No artifacts to derive (no OpenAPI). Valid completed pass with honest no-API-surface result.
 tags:
 - Company
 apis: []
